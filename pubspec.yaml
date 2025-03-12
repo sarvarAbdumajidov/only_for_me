@@ -1,0 +1,84 @@
+name: only_for_me
+description: "my first app"
+ 
+ 
+publish_to: 'none'  
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  eva_icons_flutter: ^3.1.0
+  logger: ^2.5.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato/Lato-Bold.ttf
+          weight: 700
+    - family: Itim
+      fonts:
+        - asset: assets/fonts/Itim/Itim-Regular.ttf
+          weight: 500
+    - family: Jacques
+      fonts:
+        - asset: assets/fonts/Jacques/JacquesFrancois-Regular.ttf
+          weight: 500
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora/Lora-MediumItalic.ttf
+          weight: 600
+
+   
+   
+   
+   
+
+   
+   
+
+   
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
